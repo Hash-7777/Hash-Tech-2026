@@ -6,12 +6,11 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# API proxy → Netlify function (which proxies to Railway backend)
+# API proxy → Railway backend (direct external URL rewrite)
 [[redirects]]
   from   = "/api/*"
-  to     = "/.netlify/functions/api/:splat"
+  to     = "https://backend-production-1776.up.railway.app/api/:splat"
   status = 200
-  force  = true
 
 # SPA fallback (React Router support)
 [[redirects]]
