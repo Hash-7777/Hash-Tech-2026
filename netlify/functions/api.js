@@ -1,8 +1,9 @@
 const BACKEND_URL = "https://backend-production-1776.up.railway.app";
 
 exports.handler = async (event) => {
+  // Extract the path after /.netlify/functions/api, then prepend /api for backend
   const path = event.path.replace("/.netlify/functions/api", "");
-  const url = `${BACKEND_URL}${path}`;
+  const url = `${BACKEND_URL}/api${path}`;
 
   try {
     const response = await fetch(url, {
