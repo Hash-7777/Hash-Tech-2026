@@ -1,0 +1,4 @@
+# Fallback in case netlify.toml is not picked up.
+# Replace the Railway URL below too if you rely on this file.
+/api/*   https://REPLACE-WITH-YOUR-RAILWAY-URL.up.railway.app/api/:splat   200!
+/*       /index.html                                                       200
