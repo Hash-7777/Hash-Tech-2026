@@ -1,7 +1,7 @@
-const BASE = "/api";
+const BASE = process.env.REACT_APP_API_URL || "https://backend-production-1776.up.railway.app";
 
 async function req(path, options = {}) {
-  const res = await fetch(BASE + path, {
+  const res = await fetch(BASE + "/api" + path, {
     headers: { "Content-Type": "application/json" },
     ...options
   });
