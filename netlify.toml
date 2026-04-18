@@ -1,13 +1,3 @@
-# ─────────────────────────────────────────────────────────────
-#  Hash Tech_AI 2026 · Netlify deployment config (frontend)
-# ─────────────────────────────────────────────────────────────
-#  👉 Replace the Railway URL below with your real Railway
-#     backend URL once you've deployed the /backend service.
-#
-#  Example Railway URL:
-#    https://hash-tech-ai-backend-production.up.railway.app
-# ─────────────────────────────────────────────────────────────
-
 [build]
   base    = "frontend"
   command = "npm install && npm run build"
