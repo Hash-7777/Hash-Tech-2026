@@ -1,4 +1,4 @@
-const BASE = process.env.REACT_APP_API_URL || "https://backend-production-1776.up.railway.app";
+const BASE = "https://backend-production-1776.up.railway.app";
 
 async function req(path, options = {}) {
   const res = await fetch(BASE + "/api" + path, {
