@@ -1,0 +1,102 @@
+[
+  {
+    "id": "HASH-MO3DNP2G",
+    "createdAt": "2026-04-17T20:45:25.288Z",
+    "currency": "EGP",
+    "customer": {
+      "fullName": "dw",
+      "email": "dw@gmail.com",
+      "phone": "01021299929",
+      "address": "dw",
+      "city": "dw",
+      "country": "Egypt",
+      "zip": "dw"
+    },
+    "items": [
+      {
+        "id": 6,
+        "name": "Hash Photon Inference Server",
+        "price": 1200000,
+        "category": "GPU Server",
+        "description": "A 2U inference beast optimized for low-latency LLM serving. Eight NVIDIA L40S GPUs with FP8 acceleration, dual 100GbE, and sub-millisecond token-streaming latency for SaaS-grade AI products.",
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=900&auto=format&fit=crop&q=80",
+        "specs": {
+          "CPU": "Dual AMD EPYC 9554 (128 cores)",
+          "GPU": "8× NVIDIA L40S 48GB",
+          "RAM": "1TB DDR5 ECC",
+          "Storage": "8× 7.68TB NVMe Gen4",
+          "AI_UseCase": "LLM inference, RAG, production model serving"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 1368000,
+    "status": "confirmed"
+  },
+  {
+    "id": "HASH-MO3FJ2W0",
+    "createdAt": "2026-04-17T21:37:49.152Z",
+    "currency": "EGP",
+    "customer": {
+      "fullName": "sksk",
+      "email": "zo@gmail.com",
+      "phone": "0202002022",
+      "address": "wo",
+      "city": "kcmie",
+      "country": "Egypt",
+      "zip": "1212"
+    },
+    "items": [
+      {
+        "id": 11,
+        "name": "Hash Stratos Aerial Survey Drone",
+        "price": 278000,
+        "category": "Drone",
+        "description": "A high-altitude AI survey drone for mapping, agriculture, and infrastructure inspection. On-device CV models fuse dual-camera gimbal data with LiDAR and hyperspectral imaging — 90-minute flight time per charge.",
+        "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=900&auto=format&fit=crop&q=80",
+        "specs": {
+          "CPU": "Qualcomm Flight RB5 5G",
+          "GPU": "Adreno 650 + Hexagon 698 DSP",
+          "RAM": "32GB LPDDR5",
+          "Storage": "2TB NVMe + 1TB raw-capture buffer",
+          "AI_UseCase": "Photogrammetry, precision agriculture, pipeline inspection"
+        },
+        "quantity": 1
+      },
+      {
+        "id": 12,
+        "name": "Hash Hornet Swarm Drone Kit",
+        "price": 696000,
+        "category": "Drone",
+        "description": "A ten-unit palm-sized swarm platform with decentralized AI mesh autonomy. Each micro-drone coordinates via low-latency LoRa-AI fabric — ideal for entertainment, research, and tactical swarm ops.",
+        "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=900&auto=format&fit=crop&q=80",
+        "specs": {
+          "CPU": "10× STM32H7 + Kendryte K230",
+          "GPU": "KPU NPU 13.6 TOPS per unit",
+          "RAM": "10× 2GB LPDDR4",
+          "Storage": "10× 128GB eMMC",
+          "AI_UseCase": "Swarm robotics, light shows, decentralized autonomy research"
+        },
+        "quantity": 1
+      },
+      {
+        "id": 14,
+        "name": "Hash Nimbus Racing Drone",
+        "price": 120000,
+        "category": "Drone",
+        "description": "A featherweight FPV racing drone with sub-millisecond AI-stabilized flight control. 6S carbon frame, 4K HDR low-latency transmission, and an onboard cinematic AI mode for creators.",
+        "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=900&auto=format&fit=crop&q=80",
+        "specs": {
+          "CPU": "STM32H743 + Kendryte K210",
+          "GPU": "KPU NPU 1 TOPS",
+          "RAM": "8GB LPDDR4",
+          "Storage": "256GB microSD UHS-II",
+          "AI_UseCase": "Cinematic FPV, racing competitions, creator content"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 1247160,
+    "status": "confirmed"
+  }
+]

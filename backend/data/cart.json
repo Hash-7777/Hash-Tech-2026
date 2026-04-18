@@ -1,0 +1,50 @@
+[
+  {
+    "id": 5,
+    "name": "Hash Vault AI Storage Array",
+    "price": 16560000,
+    "category": "Storage",
+    "description": "All-flash AI-native storage system tuned for petabyte-scale dataset streaming. GPUDirect Storage, RDMA over 400GbE, and zero-copy tiering keep your GPUs saturated — never starved.",
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual AMD EPYC 9654 (192 cores)",
+      "GPU": "NVIDIA BlueField-3 DPU ×2",
+      "RAM": "1TB DDR5 ECC",
+      "Storage": "960TB NVMe Gen5 (all-flash)",
+      "AI_UseCase": "Training dataset hosting, vector DB, RAG pipelines"
+    },
+    "quantity": 1
+  },
+  {
+    "id": 17,
+    "name": "Hash Titan Heavy AI Cargo Platform",
+    "price": 21600000,
+    "category": "Drone",
+    "description": "A 35 kg heavy-lift industrial VTOL platform rated for 50 kg payloads and 120 km range. AI mission orchestration, multi-modal sensor fusion, and hybrid-electric propulsion enable autonomous logistics at industrial scale.",
+    "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual NVIDIA Jetson AGX Orin 64GB",
+      "GPU": "4096-core Ampere + 128 Tensor cores",
+      "RAM": "128GB LPDDR5",
+      "Storage": "4TB NVMe redundant",
+      "AI_UseCase": "Industrial logistics, offshore resupply, disaster response"
+    },
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "Hash Nebula H200 GPU Server",
+    "price": 43200000,
+    "category": "GPU Server",
+    "description": "Data-center grade 8-GPU server built for frontier-scale training. Featuring NVIDIA H200 Tensor Core GPUs with 141GB HBM3e each, NVLink 5.0 fabric, and redundant 3000W titanium PSUs. The gold standard for training foundation models.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual Intel Xeon Platinum 8592+ (128 cores total)",
+      "GPU": "8× NVIDIA H200 141GB HBM3e (NVLink 5.0)",
+      "RAM": "2TB DDR5 ECC",
+      "Storage": "4× 15.36TB NVMe Gen5",
+      "AI_UseCase": "Foundation model training, distributed pretraining, HPC"
+    },
+    "quantity": 1
+  }
+]

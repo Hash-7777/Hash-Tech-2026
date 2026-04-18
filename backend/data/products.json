@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "name": "Hash's Personalized AI Workstation — Ultra Performance",
+    "price": 206000,
+    "category": "Workstation",
+    "description": "A silent, space-efficient AI powerhouse hand-configured for each client. Wrapped in a CNC-machined aerospace aluminum chassis, it fuses Apple Silicon with a custom liquid-vapor chamber for sustained on-device inference, fine-tuning, and creative workloads.",
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Apple M4 Ultra 24-core",
+      "GPU": "76-core Apple GPU + 32-core Neural Engine",
+      "RAM": "192GB Unified Memory",
+      "Storage": "8TB NVMe SSD",
+      "AI_UseCase": "On-device LLM inference, Stable Diffusion, fine-tuning 70B models"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Hash Nebula H200 GPU Server",
+    "price": 432000,
+    "category": "GPU Server",
+    "description": "Data-center grade 8-GPU server built for frontier-scale training. Featuring NVIDIA H200 Tensor Core GPUs with 141GB HBM3e each, NVLink 5.0 fabric, and redundant 3000W titanium PSUs. The gold standard for training foundation models.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual Intel Xeon Platinum 8592+ (128 cores total)",
+      "GPU": "8× NVIDIA H200 141GB HBM3e (NVLink 5.0)",
+      "RAM": "2TB DDR5 ECC",
+      "Storage": "4× 15.36TB NVMe Gen5",
+      "AI_UseCase": "Foundation model training, distributed pretraining, HPC"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Hash Quantum Cluster Q-1",
+    "price": 6000000,
+    "category": "AI Cluster",
+    "description": "A turnkey 32-node AI supercluster delivering multi-exaflop performance. Liquid-cooled 400GbE InfiniBand fabric with NVIDIA GB200 NVL72 racks. Designed for elite research labs and sovereign-AI deployments.",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "72× NVIDIA Grace Arm CPUs",
+      "GPU": "144× Blackwell B200 GPUs (NVL72)",
+      "RAM": "13.5TB HBM3e + 30TB LPDDR5X",
+      "Storage": "1PB NVMe Gen5 + 10PB Object Storage",
+      "AI_UseCase": "Trillion-parameter training, sovereign AI, climate modeling"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hash Edge AI Node — Falcon",
+    "price": 91000,
+    "category": "Edge AI",
+    "description": "A ruggedized edge AI appliance engineered for real-time inference at the frontier — factories, vehicles, and remote deployments. IP67-rated, fanless, with hardware-root trust and OTA model deployment.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "NVIDIA Jetson Thor — 14-core Arm Neoverse-V3AE",
+      "GPU": "Blackwell 2560 CUDA cores + 96 Tensor cores",
+      "RAM": "128GB LPDDR5X",
+      "Storage": "2TB NVMe industrial-grade",
+      "AI_UseCase": "Autonomous robotics, real-time vision, industrial IoT"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Hash Vault AI Storage Array",
+    "price": 165600,
+    "category": "Storage",
+    "description": "All-flash AI-native storage system tuned for petabyte-scale dataset streaming. GPUDirect Storage, RDMA over 400GbE, and zero-copy tiering keep your GPUs saturated — never starved.",
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual AMD EPYC 9654 (192 cores)",
+      "GPU": "NVIDIA BlueField-3 DPU ×2",
+      "RAM": "1TB DDR5 ECC",
+      "Storage": "960TB NVMe Gen5 (all-flash)",
+      "AI_UseCase": "Training dataset hosting, vector DB, RAG pipelines"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Hash Orion Desktop AI Studio",
+    "price": 600000,
+    "category": "Workstation",
+    "description": "A dual-GPU creative workstation sculpted from brushed titanium. Whisper-quiet liquid cooling drives sustained renders, 3D generation, and local 70B model fine-tuning in studio silence.",
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "AMD Threadripper PRO 7995WX (96 cores)",
+      "GPU": "2× NVIDIA RTX 6000 Ada 48GB",
+      "RAM": "512GB DDR5 ECC",
+      "Storage": "4× 4TB NVMe Gen5",
+      "AI_UseCase": "Generative video, local fine-tuning, 3D/VFX, research"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Hash Vector DB Appliance",
+    "price": 907000,
+    "category": "Storage",
+    "description": "A purpose-built vector database appliance for sub-10ms semantic search over billions of embeddings. Hardware-accelerated HNSW, native RAG integration, and zero-maintenance clustering.",
+    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual Intel Xeon Gold 6548Y+",
+      "GPU": "NVIDIA L4 24GB (ANN acceleration)",
+      "RAM": "768GB DDR5",
+      "Storage": "120TB NVMe Gen5",
+      "AI_UseCase": "Vector search, RAG backbone, recommendation engines"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Hash Skyhawk Autonomous Drone",
+    "price": 158000,
+    "category": "Drone",
+    "description": "An AI-integrated airborne compute platform weighing under 500g. Onboard SLAM, zero-shot object tracking, and autonomous mission planning with 40 TOPS of neural inference — all fully encrypted and field-serviceable.",
+    "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "NVIDIA Jetson Orin NX 16GB",
+      "GPU": "1024-core Ampere + 32 Tensor cores",
+      "RAM": "16GB LPDDR5",
+      "Storage": "1TB NVMe",
+      "AI_UseCase": "Autonomous navigation, aerial mapping, defense ISR"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Hash Falcon-X Tactical Drone",
+    "price": 408000,
+    "category": "Drone",
+    "description": "A carbon-fiber stealth drone with whisper-silent propulsion, encrypted RF link, and onboard AI target-discrimination. Built for reconnaissance, long-endurance patrol, and autonomous mission execution in contested airspace.",
+    "image": "https://images.unsplash.com/photo-1524143986875-3b098d78b363?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "NVIDIA Jetson AGX Orin 64GB",
+      "GPU": "2048-core Ampere + 64 Tensor cores",
+      "RAM": "64GB LPDDR5",
+      "Storage": "2TB NVMe encrypted",
+      "AI_UseCase": "Tactical reconnaissance, long-endurance patrol, autonomous ISR"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Hash Stratos Aerial Survey Drone",
+    "price": 278000,
+    "category": "Drone",
+    "description": "A high-altitude AI survey drone for mapping, agriculture, and infrastructure inspection. On-device CV models fuse dual-camera gimbal data with LiDAR and hyperspectral imaging — 90-minute flight time per charge.",
+    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Qualcomm Flight RB5 5G",
+      "GPU": "Adreno 650 + Hexagon 698 DSP",
+      "RAM": "32GB LPDDR5",
+      "Storage": "2TB NVMe + 1TB raw-capture buffer",
+      "AI_UseCase": "Photogrammetry, precision agriculture, pipeline inspection"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Hash Hornet Swarm Drone Kit",
+    "price": 696000,
+    "category": "Drone",
+    "description": "A ten-unit palm-sized swarm platform with decentralized AI mesh autonomy. Each micro-drone coordinates via low-latency LoRa-AI fabric — ideal for entertainment, research, and tactical swarm ops.",
+    "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "10× STM32H7 + Kendryte K230",
+      "GPU": "KPU NPU 13.6 TOPS per unit",
+      "RAM": "10× 2GB LPDDR4",
+      "Storage": "10× 128GB eMMC",
+      "AI_UseCase": "Swarm robotics, light shows, decentralized autonomy research"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Hash Pegasus Cargo Drone",
+    "price": 109900,
+    "category": "Drone",
+    "description": "A heavy-lift VTOL cargo drone rated for 25 kg payloads over 60 km ranges. AI waypoint routing, redundant octo-rotor propulsion, and weather-hardened aerospace-grade frame deliver autonomous logistics you can trust.",
+    "image": "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "NVIDIA Jetson AGX Orin 32GB",
+      "GPU": "1792-core Ampere + 56 Tensor cores",
+      "RAM": "32GB LPDDR5",
+      "Storage": "2TB NVMe industrial",
+      "AI_UseCase": "Autonomous logistics, medical delivery, industrial cargo"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Hash Nimbus Racing Drone",
+    "price": 120000,
+    "category": "Drone",
+    "description": "A featherweight FPV racing drone with sub-millisecond AI-stabilized flight control. 6S carbon frame, 4K HDR low-latency transmission, and an onboard cinematic AI mode for creators.",
+    "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "STM32H743 + Kendryte K210",
+      "GPU": "KPU NPU 1 TOPS",
+      "RAM": "8GB LPDDR4",
+      "Storage": "256GB microSD UHS-II",
+      "AI_UseCase": "Cinematic FPV, racing competitions, creator content"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hash Phantom Nano AI Micro-Drone",
+    "price": 76000,
+    "category": "Drone",
+    "description": "A 55-gram palm-sized AI micro-drone with on-device neural vision, acoustic-silent brushless propulsion, and 20-minute flight time. Transformer-based SLAM runs natively on its integrated 4-TOPS NPU — pocket-scale autonomy.",
+    "image": "https://images.unsplash.com/photo-1506947411487-a56738267384?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Kendryte K230 RISC-V dual-core",
+      "GPU": "Integrated 4 TOPS NPU",
+      "RAM": "4GB LPDDR4X",
+      "Storage": "128GB eMMC + 1080p60 stream",
+      "AI_UseCase": "Covert reconnaissance, indoor inspection, micro-robotics research"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Hash Titan Heavy AI Cargo Platform",
+    "price": 216000,
+    "category": "Drone",
+    "description": "A 35 kg heavy-lift industrial VTOL platform rated for 50 kg payloads and 120 km range. AI mission orchestration, multi-modal sensor fusion, and hybrid-electric propulsion enable autonomous logistics at industrial scale.",
+    "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=900&auto=format&fit=crop&q=80",
+    "specs": {
+      "CPU": "Dual NVIDIA Jetson AGX Orin 64GB",
+      "GPU": "4096-core Ampere + 128 Tensor cores",
+      "RAM": "128GB LPDDR5",
+      "Storage": "4TB NVMe redundant",
+      "AI_UseCase": "Industrial logistics, offshore resupply, disaster response"
+    }
+  }
+]

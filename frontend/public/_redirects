@@ -1,0 +1,4 @@
+# Fallback in case netlify.toml is not picked up.
+# Replace the Railway URL below too if you rely on this file.
+/api/*   https://backend-production-1776.up.railway.app   200!
+/*       /index.html                                                       200
